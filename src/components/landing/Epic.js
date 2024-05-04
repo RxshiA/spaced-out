@@ -56,7 +56,7 @@ export default function Epic() {
           >
             <img 
               src={image}
-              alt=""
+              alt="Epic image"
               style={{
                 width: '100%',
                 height: '100%',

@@ -88,7 +88,7 @@ export default function Highlights() {
         </Box>
         <Grid container spacing={2.5}>
           {items.map((item, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index}>
+            <Grid item xs={12} sm={6} md={4} key={index} data-testid="highlight-item">
               <Stack
                 direction="column"
                 color="inherit"
